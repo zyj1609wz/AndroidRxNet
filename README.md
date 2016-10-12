@@ -36,6 +36,19 @@ ReactiveNetwork是一个用RxJava实现的Android网络监听库，可以监听�
        WIFI_STATE_DISABLING("wifi closing"),
        WIFI_STATE_DISABLED("wifi closed"),
        WIFI_STATE_UNKNOWN( "wifi unknown" );
+
+## 权限
+* 使用Net的时候需要添加相应的权限
+```
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+```
+
+* 使用RxNet的时候需要添加相应的权限
+```
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+```
      
 ## 需要注意的事项          
 * RxNet需要依赖RxAndroid、RxJava
@@ -46,12 +59,6 @@ compile 'io.reactivex:rxandroid:1.2.1'
 compile 'io.reactivex:rxjava:1.1.6'
 ```
 
-* 注意在使用RxNet的时候需要添加相应的权限
-```
-<uses-permission android:name="android.permission.INTERNET"></uses-permission>
-<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
-<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
-```
 
 * 相关的github地址
 
