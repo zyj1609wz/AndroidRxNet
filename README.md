@@ -7,7 +7,7 @@
 
 ReactiveNetwork是一个用RxJava实现的Android网络监听库，可以监听是否有网络连接，网络连接的类型，wifi是否连接
 
-* Net主要功能:
+## Net主要功能:
 
   1、可以判断网络连接的类型
   
@@ -16,7 +16,7 @@ ReactiveNetwork是一个用RxJava实现的Android网络监听库，可以监听�
         MOBILE_CONNECTED("connected to mobile network"),
         OFFLINE("offline"),
           
-* RxNet主要功能：
+## RxNet主要功能：
 
   1、可以判断网络连接的类型
   
