@@ -11,23 +11,23 @@ ReactiveNetwork是一个用RxJava实现的Android网络监听库，可以监听�
 
   1、可以判断网络连接的类型
   
-          UNKNOWN("unknown"),
-          WIFI_CONNECTED("connected to WiFi network"),
-          MOBILE_CONNECTED("connected to mobile network"),
-          OFFLINE("offline"),
+        UNKNOWN("unknown"),
+        WIFI_CONNECTED("connected to WiFi network"),
+        MOBILE_CONNECTED("connected to mobile network"),
+        OFFLINE("offline"),
           
 * RxNet主要功能：
 
   1、可以判断网络连接的类型
   
-          UNKNOWN("unknown"),
-          WIFI_CONNECTED("connected to WiFi network"),
-          MOBILE_CONNECTED("connected to mobile network"),
-          OFFLINE("offline"),
+       UNKNOWN("unknown"),
+       WIFI_CONNECTED("connected to WiFi network"),
+       MOBILE_CONNECTED("connected to mobile network"),
+       OFFLINE("offline"),
   2、当前环境是否有网络可用（是否接入互联网）
   
-     true ,
-     false 
+       true ,
+       false 
   
   3、wifi 的状态
   
