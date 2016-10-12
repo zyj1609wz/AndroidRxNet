@@ -2,8 +2,10 @@
 ## 项目简介
 这个项目总共有4个模块 Net、NetDemo、RxNet、RxNetDemo,可以分成两组 Net、NetDemo 为一组；RxNet、RxNetDemo为另外一组。
 其中Net和RxNet为网络监听的库，NetDemo和RxNetDemo分别为前面两个的demo示例。
+部分参考：[https://github.com/pwittchen/ReactiveNetwork](https://github.com/pwittchen/ReactiveNetwork)
+ReactiveNetwork是一个用RxJava实现的Android网络监听库，可以监听是否有网络连接，网络连接的类型，wifi是否连接
 
-Android  RxJava 监听网络状态
+
 
 * RxNet需要依赖RxAndroid、RxJava
 
